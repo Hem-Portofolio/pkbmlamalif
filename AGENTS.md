@@ -6,7 +6,8 @@ Website **PKBM Lam Alif** (Pusat Kegiatan Belajar Masyarakat) — konversi dari 
 - `topics-listing.html` (daftar program) → `topics-detail.html` (detail Program Paket C; satu halaman detail untuk semua kartu)
 - `contact.html` — form is `action="#"`, no backend
 
-No `package.json`, no build, no tests, no lint, no own git repo. Do not look for npm scripts; there are none.
+No `package.json`, no build, no tests, no lint. Do not look for npm scripts; there are none.
+**Own git repo**: branch `main`, remote `https://github.com/Hem-Portofolio/pkbmlamalif.git` (nested repo inside the root home-dir repo — commits happen here, never at root).
 
 ## Running
 - Preview: open `index.html` directly, or serve statically (`npx serve .`, `python -m http.server`). Nothing to install.
